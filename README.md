@@ -20,9 +20,7 @@ You might also want to check out my categorized list of Redux-related addons, li
 #### Basic Tutorials
 - [ES6 Features and Samples](./es6-features.md)
 - [React Tutorials](./react-tutorials.md)
-- [Flux Tutorials](./flux-tutorials.md)
 - [Redux Tutorials](./redux-tutorials.md)
-- [MobX Tutorials](./mobx-tutorials.md)
 
 #### Intermediate Concepts
 
@@ -30,7 +28,6 @@ You might also want to check out my categorized list of Redux-related addons, li
 - [Functional Programming](./functional-programming.md)
 - [Immutable Data](./immutable-data.md)
 - [React/Redux Testing](./react-redux-testing.md)
-- [React Native](./react-native.md)
 - [React Tips and Techniques](./react-techniques.md)
 
 #### Advanced Topics
@@ -75,20 +72,8 @@ You might also want to check out my categorized list of Redux-related addons, li
 All of the links in this collection are worth reading, but there's obviously a LOT of them.  Here's a "best-of" list to get you started:
 
 ## Basic Concepts and Learning Approaches
-
-### Overviews of Javascript Tools and Concepts
-  - [State of the Javascript Landscape in 2016](http://www.infoq.com/articles/state-of-javascript-2016)  
-    A very high-level summary of the important terms and technologies that are used in modern Javascript development.
-  - [The \(R\)Evolution of Web Development](http://blog.isquaredsoftware.com/presentations/2016-10-revolution-of-web-dev/)  
-    A slideshow giving an overview of web dev history and modern web dev tools, technologies, and trends.
-  - [Javascript Package Managers 101](https://medium.com/@shubheksha/javascript-package-managers-101-9afd926add0a)  
-    An overview of what packages and package managers are, some related terms, and how these tools work.
     
 ### Suggested Learning Approaches
-  - [A Study Plan to Cure Javascript Fatigue](https://medium.freecodecamp.com/a-study-plan-to-cure-javascript-fatigue-8ad3a54f2eb1)  
-    The author of the "State of JS 2016" survey gives an excellent step-by-step study plan to use when learning the Javascript ecosystem.
-  - [Grab Front-End Study Guide](https://github.com/grab/front-end-guide)  
-    An excellent guide to learning front-end technologies, based on "A Study Plan to Cure Javascript Fatigue".  Includes descriptions of each topic, links to learning resources, and estimates for how much time to spend on each topic.
   - [React How-To](https://github.com/petehunt/react-howto)  
     Pete Hunt, one of React's creators, gives a high-level suggested order to use when learning React-related technologies (React, NPM, bundlers, ES6, routing, and Flux/Redux)
   - [Timeline for Learning React](https://daveceddia.com/timeline-for-learning-react/)  
@@ -102,24 +87,11 @@ All of the links in this collection are worth reading, but there's obviously a L
 
 ## Learning Core Javascript (ES5)
 
-### General Resources
-  - [Mozilla Developer Network: Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)  
-    [Mozilla Developer Network: A Re-Introduction to Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript)  
-    Mozilla maintains a fantastic set of developer resources for Web technologies, including a comprehensive reference to the Javascript language and a number of associated tutorials. Their "reintroduction to Javascript" article is a great overview of what the language looks like.
-  - [Eric Elliott's Javascript Resource Lists](https://medium.com/javascript-scene/10-priceless-resources-for-javascript-learners-bbf2f7d7f84e)  
-    [Eric Elliott's Essential Javascript Links](https://gist.github.com/ericelliott/d576f72441fc1b27dace/0cee592f8f8b7eae39c4b3851ae92b00463b67b9)  
-    Eric Elliott is a strong proponent of Javascript, has written numerous articles about learning and understanding Javascript, and assembled some very useful lists of numerous Javascript resources. (Strong opinions, but has useful info.)
-  - [Wes Bos's Javascript Resource List](http://wesbos.com/learn-javascript)  
-    Speaker and teacher Wes Bos gives links to a number of resources for learning Javascript
-    
 ### Books
   - [Eloquent Javascript](http://eloquentjavascript.net/)  
     A full online book teaching Javascript from the ground up. Very recommended.
   - [You Don't Know Javascript](https://github.com/getify/You-Dont-Know-JS)  
     An online book series intended to teach all aspects of Javascript, including the "tougher" parts.
-  - [Exploring Javascript](http://exploringjs.com/)  
-    Multiple free online books from Dr. Axel Rauschmayer. "Speaking Javascript" covers all of Javascript through ES5; "Exploring ES6" covers ES6 in depth; and other books look at versions of Javascript after ES6 and how to set up an ES6+ development environment.
-
 
 ## Learning Current Javascript (ES6+)
 
@@ -130,9 +102,7 @@ All of the links in this collection are worth reading, but there's obviously a L
     Code snippets comparing ES6 features with their ES5 equivalents
   - [ES6 - The Bits You'll Actually Use](http://jamesknelson.com/es6-the-bits-youll-actually-use/)  
     A quick tour through some of the more useful features in ES6
-  - [A Rundown of Javascript 2015 Features](https://auth0.com/blog/a-rundown-of-es6-features/)  
-    An overview of the features in ES6 and how they can be used.
-    
+    Ï
 ### In-Depth Details
   - [ES6 In Depth](https://ponyfoo.com/articles/tagged/es6-in-depth)  
     Many articles covering each feature in greater detail
@@ -145,13 +115,6 @@ All of the links in this collection are worth reading, but there's obviously a L
 If you are new to React, try reading these articles in order. 
 
 ### Getting Started
-  - [React Documentation: Hello World](https://facebook.github.io/react/docs/hello-world.html)  
-    [React Documentation: Tutorial](https://facebook.github.io/react/tutorial/tutorial.html)  
-    The official React documentation, recently rewritten with an excellent set of tutorials, explanations, and API information.
-  - [Create-React-App](https://github.com/facebookincubator/create-react-app)  
-    The official project creation tool from the React team.  Allows you to set up a new React project, with no configuration work required.
-  - [Simple React Development in 2017](https://hackernoon.com/simple-react-development-in-2017-113bd563691f)  
-    An excellent set of instructions for setting up a React project with minimal fuss and effort needed.  Includes links to some useful resources, and info on deploying the app to production.
   - [Modern Web Development with React and Redux](http://blog.isquaredsoftware.com/2017/02/presentation-react-redux-intro/)    
     An up-to-date HTML slideshow that introduces React and Redux, discusses why they help make applications easier to write via declarative code and predictable data flow, and demonstrates their basic concepts and syntax.  Includes several interactive React component examples.
   - [Learn Raw React](http://jamesknelson.com/learn-raw-react-no-jsx-flux-es6-webpack/)  
@@ -164,25 +127,11 @@ If you are new to React, try reading these articles in order.
     Describes what "state" is, what kinds of data should be included into React state, and how state flow relates to component updates.
   - [ReactJS: Props vs State](http://lucybain.com/blog/2016/react-state-vs-pros/)  
     Explains that "props" are data passed in to a component, while "state" is data managed inside a component.
-  - [Best Practices for Component State in React](http://brewhouse.io/blog/2015/03/24/best-practices-for-component-state-in-reactjs.html)  
-    Some excellent suggestions and approaches for state handling and component structure.
-    
 ### Component Patterns
   - [React Patterns](http://reactpatterns.com/)  
     An excellent list of common patterns for structuring React components, with examples
   - [The React Component Lifecycle](https://www.kirupa.com/react/component_lifecycle.htm)  
     A useful description of the order and purpose of React’s component lifecycle methods.
-  - [8 no-Flux strategies for React component communication](http://andrewhfarmer.com/component-communication/)  
-    Very helpful list of ways to have React components communicate back and forth
-  - [Presentational and Container Components](https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0)  
-    Dan Abramov's foundational article on classifying components based on intent and behavior. A must-read for anyone using React.
-  - [Mixins Considered Harmful](https://facebook.github.io/react/blog/2016/07/13/mixins-considered-harmful.html)  
-    Dan Abramov explains why the React team discourages use of mixins, and prefers a pattern called “Higher Order Components” instead
-  - [Components, React, and Flux](http://slides.com/danabramov/components-react-flux-wip#/)  
-    A fantastic HTML slideshow that discusses how to organize code as reusable components, and the basic concepts and benefits of a Flux unidirectional architecture
-  - [Reactive, Component-Based UIs](http://banderson.github.io/reactive-component-ui-presentation/#/)  
-    Another fantastic HTML slideshow describing the three principles of React: "functional over OOP", "stateless over stateful", "clarity over brevity" (use arrow keys to advance slides)
-    
 ### Function Binding and `this`
   - [Gentle Explanation of `this` keyword in Javascript](http://rainsoft.io/gentle-explanation-of-this-in-javascript/)  
     A long and in-depth explanation of the various ways that the `this`  keyword can be defined
@@ -224,13 +173,6 @@ If you are new to React, try reading these articles in order.
   - [Learn Raw React: Ridiculously Simple Forms](http://jamesknelson.com/learn-raw-react-ridiculously-simple-forms/)  
     Covers the basics of implementing form rendering, updates, and validation, in plain JS
     
-### Styles
-  - [Styling in React](https://www.kirupa.com/react/styling_in_react.htm)  
-    An introduction to using React's built-in inline styling abilities
-  - [How To Style React](http://andrewhfarmer.com/how-to-style-react/)  
-    An excellent overview of the four major ways to deal with styles in React, and what the various tools are. Includes a decision tree to help you decide what to use.
-
-
 ## Redux
 
 ### Getting Started
@@ -248,8 +190,6 @@ If you are new to React, try reading these articles in order.
     An extremely well-produced slideshow that visually steps through core Redux concepts, usage with React, project organization, and side effects with thunks and sagas. Has some absolutely fantastic animated diagrams demonstrating how data flows through a React+Redux architecture.
   - [Leveling Up with React: Redux](https://css-tricks.com/learning-react-redux/)  
     A very well-written introduction to Redux and its related concepts, with some useful cartoon-ish diagrams.
-  - [Connect.js explained](https://gist.github.com/gaearon/1d19088790e70ac32ea636c025ba424e)  
-    A very simplified version of React Redux's `connect()` function that illustrates the basic implementation
     
 ### AJAX, Timeouts, and other “Side Effects”
   - [Dispatching Redux Actions with a Timeout / ](http://stackoverflow.com/a/35415559/62937)  
@@ -284,39 +224,3 @@ If you are new to React, try reading these articles in order.
   - [Practical Redux: Redux-ORM Basics](http://blog.isquaredsoftware.com/2016/10/practical-redux-part-1-redux-orm-basics/)  
     [Practical Redux: Redux-ORM Concepts and Techniques](http://blog.isquaredsoftware.com/2016/10/practical-redux-part-2-redux-orm-concepts-and-techniques/)  
     A look at how Redux-ORM can help manage normalized data in a Redux store, including use cases, basic usage, key concepts, and advanced techniques.
-
-
-## Webpack
-
-### Getting Started
-  - [Webpack Documentation](https://webpack.js.org/)  
-    Webpack's new documentation site, explaining concepts, configuration, and recipes
-  - [Webpack from First Principles](https://youtu.be/WQue1AN93YU)  
-    A screencast video explaining what Webpack is and why you would want to use it
-  - [What is Webpack and what can it do for you?](http://x-team.com/2016/09/webpack-can-absolute-beginners/)  
-    A plain-English explanation of what Webpack is and what problems it can help solve.
-  - [SurviveJS - Webpack](http://survivejs.com/webpack/introduction)  
-    A full book online book that covers setting up Webpack for both development and production. Also touches topics such as ESLint and npm.
-    
-### Configuration and Concepts
-  - [Webpack: The Confusing Parts](https://medium.com/@rajaraodv/webpack-the-confusing-parts-58712f8fcad9)  
-    A great simplification and breakdown of the different pieces that make up a Webpack configuration: dev vs prod, CLI vs dev-server, the "entry" option, the "output" option / "path" vs "publicPath", loaders and configuration, Babel, plugins, and path resolving.
-  - [Angular + Webpack < 3](https://docs.google.com/presentation/d/10mIapWjv1pyUQaMv6G8MCdoe9OK2Ey8zz-CLkHuFdRI)  
-    A long presentation that describes Webpack and its core concepts in depth. A few parts are Angular-centric, but still an extremely clear and informative set of slides. Covers topics like the "entry" and "output" options, "loaders", and "plugins".
-  - [Advanced Webpack](http://presentations.survivejs.com/advanced-webpack/)  
-    An in-depth presentation that walks through Webpack concepts, terms, configuration, and usage. Covers a number of advanced topics, and very worth reading.
-    
-### Build Optimization
-  - [Advanced Frontend Optimization with Webpack](http://sokra.github.io/slides/frontend-optimize)  
-    Slides by Webpack’s original author, describing ways to improve Webpack builds.
-  - [Formidable Playbook](https://formidable.com/open-source/playbook/)  
-    Formidable Labs describes their preferred approaches for configuring Webpack, including optimization approaches.
-    
-### Hot Module Reloading
-  - [HMR Tutorial: Why Use HMR?](http://andrewhfarmer.com/why-use-hmr/)  
-    [HMR Tutorial: Understanding HMR](http://andrewhfarmer.com/understanding-hmr/)  
-    [HMR Tutorial: 3 Ways to use HMR with Webpack](http://andrewhfarmer.com/3-ways-webpack-hmr/)  
-    [HMR Tutorial: HMR Ideas and Setup](http://andrewhfarmer.com/webpack-hmr-tutorial/)  
-    A very readable and informative series of articles that explains what HMR is, what benefits it gives, and how to use it.
-  - [Webpack Hot Reloading and React](https://ctheu.com/2015/12/29/webpack-hot-reloading-and-react-how/)  
-    An explanation of how Hot Reloading works, and how the various pieces fit together.
