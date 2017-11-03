@@ -66,11 +66,6 @@ You might also want to check out my categorized list of Redux-related addons, li
 
 
 
-
-## Best of the Best / Suggested Reading List
-
-All of the links in this collection are worth reading, but there's obviously a LOT of them.  Here's a "best-of" list to get you started:
-
 ## Basic Concepts and Learning Approaches
     
 ### Suggested Learning Approaches
